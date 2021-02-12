@@ -24,29 +24,37 @@ List of algorithms considered beyond plain SGD:
 <!-- ![From paper 2](./../assets/img/content/opt-algs.png "Title") -->
 
 
-## Related questions
-1. Where does momentum really help? Just lightly sloped surfaces?
-2. Why do gradient normalization per weight?
-3. Interaction between dataset and algorithm?
-4. Is paper 2s nesterov expression correct?
+<!-- ## Related questions -->
+<!-- 1. Where does momentum really help? Just lightly sloped surfaces? -->
+<!-- 2. Why do gradient normalization per weight? -->
+<!-- 4. Is paper 2s nesterov expression correct? -->
 
 
 
 # Quick intro to each algorithm
 
-For some quantity $a, a^\prime, a^{\prime\prime}$ denote the value at two consecutive times steps, e.g. $t+1, t+2$, respectively.
+<!-- For some quantity $a, a^\prime, a^{\prime\prime}$ denote the value at two consecutive times steps, e.g. $t+1, t+2$, respectively. -->
+
+Use notation $g_t = \nabla_\theta L(\theta_t)$
 
 ## Momentum
 
-$$ \Large m^\prime = \gamma m + \eta \nabla \ell(\theta)$$
+$$ \Large m_t = \gamma m_{t-1} + \eta g_t $$
 
-Use $m^\prime$ as gradient step.
+Use $\theta_{t+1} = \theta_t - m_t$ as step in parameter space.
 
 **Hyperparams**: momentum weight, step size
 
 **Variant, Nesterov**
-$$\Large m^\prime = \gamma m + \eta \nabla \ell(\theta - \gamma m)$$
+$$\Large m_t = \gamma m_{t-1} + \eta \nabla L(\theta_{t} - \gamma m_{t-1})$$
+
+Use $\theta_{t+1} = \theta_t - m_t$ as step in parameter space.
+
+
 Supposed to help account for rapid gradient changes between current point and the point which the momentum takes you to.
+
+
+![](./../assets/img/content/momentum.png "Momentum vs. Nesterov")
 
 
 ## RMSProp
@@ -86,10 +94,8 @@ Take $k$ steps with an optimizer and then update toward the end of optimization.
 ### **Expectations vs. Reality**
 
 1. Adaptive learning rates mean that LR schedules should not help too much; partially true with Adam.
-2. Exponentially weighted momentum should always help; Only evidence in this direction is Adam and variants are competitive across the board but maybe not the best.
-3. 
-
-
+<!-- 2. Exponentially weighted momentum should always help; Only evidence in this direction is Adam and variants are competitive across the board but maybe not the best. -->
+2. More general algorithms should always do better on training but not on test (as per Ashia Wilson's paper).
 
 ## Paper 2
 
@@ -106,7 +112,6 @@ Take $k$ steps with an optimizer and then update toward the end of optimization.
 1. Tuned Adam reaches a predefined *validation* target error(from first experiments and literature) much faster than SGD or Momentum in the "harder" cases.
 2. Random search based hyperparameter tuning; uniform over a range.
 3. Found the optimal "stabilizer" $\epsilon$ value varies quite a bit.
-4. 
 
 
 > Show plots.
@@ -131,13 +136,13 @@ Some criticism borrowed from the ICLR review.
 
 1. Non-task dependent hyperparameter ranges.
 2. Random search based hyperparameter tuning; uniform over a range.
+3. The range of hyperparameters for less common algorithms should not be small.
 
 ### **Results**
 
 1. No algorithm performs the best uniformly. Expected.
 2. Tuning the "stabilizer" parameter seems to help.
 3. Adam seems to work for reasonably well out of the box.
-
 
 > Show plots.
 
@@ -146,13 +151,13 @@ Some criticism borrowed from the ICLR review.
 
 1. There is no best optimizer: but with tuning Adam is competitive almost always; multiple papers have found this.
 
-2. If you have a new model/task that no one has done optimization on, there is not real guidance except trying a full range. Should
+2. If you have a new model/task that no one has done optimization on, there is not real guidance except trying a full range.
 
 3. There is no clear guidance on how to choose hyperparameters other than trying everything in a "plausible" range.
    
    The trouble is the behavior of performance (for a fixed seed) may be non-monotonic, so finding the plausible range may not always be as easy using a widely separated set of hyperparams.
 
-   NAdam with Resnet50 on Imagenet beat the previous record by setting $\epsilon \approx 10$.
+   NAdam with Resnet50 on Imagenet beat the previous record by setting $\epsilon \approx 10K$.
 
 4. Selecting hyperparameters on a single seed and using multiple is a good idea to see whether performance boost is coming from hyperparameter or seed.
 
@@ -160,9 +165,9 @@ Some criticism borrowed from the ICLR review.
 
 ## Questions to consider
 
+1. Random seed considered a hyperparameter?
 1. Wide local minima are hard to escape from with small learning rates?
 2. Interaction between optimization algorithm and architecture?
-3. Random seed considered a hyperparameter?
 
 
 ## Resources:
