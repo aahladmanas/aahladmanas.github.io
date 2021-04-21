@@ -5,8 +5,12 @@ layout: default
 ### About Me
 * * *
 
-I am a third year PhD candidate at NYU. I work primarily with [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/) on methods for causal inference that fold in modern machine learning. My primary applied interest is data-driven support and decision-making for healthcare in particular, and science in general. 
-I'm also excited by generalization in inference and learning.
+I am a third year PhD candidate at NYU working with [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
+My current research focuses on robustness guarantees across populations for modern machine learning models using insights and techniques from causal inference.
+In recent work, we tackled causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold.
+I also work on improving calibration for survival models used for disease risk prediction.
+My primary applied interest is data-driven support and decision-making for healthcare in particular, and science in general. 
+
 
 I'm eternally excited about new ideas and finding good applications for causal inference! Shoot me an email if you want to chat! 
 
