@@ -60,6 +60,8 @@ Supposed to help account for rapid gradient changes between current point and th
 ## RMSProp
 Do per parameter gradient magnitude normalization using an exponentially weighted sum of squares of gradients:
 
+THIS IS PER PARAMETER "NORMALIZATION"
+
 $$\Large v_t = \gamma v_{t-1}+  (1-\gamma)g_t^2, \qquad\qquad \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{v_t} + \epsilon} g_t$$
 
 **Hyperparameters** : normalization weight $\gamma$, step size $\eta$, and "stabilizer" $\epsilon$.
@@ -76,6 +78,9 @@ Primary idea is instead of adaptively weighted gradient steps, Adam takes adapti
 
 
 $$\large \hat{v}_t = \frac{\left(\beta_2 v_{t-1}+  (1-\beta_2)g_t^2\right)}{1 - \beta_2^t}, \quad \hat{m}_t = \frac{\left(\beta_1 m_{t-1}+  (1-\beta_1)g_t\right)}{1 - \beta_1^t} \qquad \theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t$$
+
+
+TODO: does this actually help?
 
 Famously had the proof wrong in the paper. Incorrectly assumed that the step size decreases over time.
 

@@ -7,7 +7,6 @@ layout: default
 
 I am a third year PhD candidate at NYU. I work primarily with [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/) on methods for causal inference that fold in modern machine learning. My primary applied interest is data-driven support and decision-making for healthcare in particular, and science in general. 
 I'm also excited by generalization in inference and learning.
-<!-- Here's my [CV (as of dec 2018)](https://aahladmanas.github.io/files/aahlad_cv_dec18.pdf). -->
 
 I'm eternally excited about new ideas and finding good applications for causal inference! Shoot me an email if you want to chat! 
 
