@@ -5,19 +5,22 @@ layout: default
 ### About Me
 * * *
 
-I am a third year PhD candidate at NYU working with [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
-My current research focuses on robustness guarantees across populations for modern machine learning models using insights and techniques from causal inference.
-In recent work, we tackled causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold.
-I also work on improving calibration for survival models used for disease risk prediction.
-My primary applied interest is data-driven support and decision-making for healthcare in particular, and science in general. 
+I am a third year PhD candidate at NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
+At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
+Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
+My primary applied interest is ML for healthcare in particular and science in general. 
 
 
-I'm eternally excited about new ideas and finding good applications for causal inference! Shoot me an email if you want to chat! 
+I'm eternally excited about new ideas and finding good applications for my work! Shoot me an email if you want to chat!
 
 ### News 
 * * *
+  1. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates?
+  [Predictive Modeling in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
 
-  1. **Nov' 20. Links to my work at NeurIPS 2020 along with punchlines (shoot me an email if these interest you!)**:  
+  2. **Apr' 21, Link to work at AISTATS, 2021; Led by Mukund Sudarshan**: A new contrarian test statistic to use in CRTs to improve robustness to mis-specified covariate distributions. [CONTRA:Contrarian statistics for controlled variable selection](http://proceedings.mlr.press/v130/sudarshan21a.html)
+
+  3. **Nov' 20. Links to my work at NeurIPS 2020 along with punchlines (shoot me an email if these interest you!)**:  
       - *General method for causal estimation from instrumental variables using only treatment process assumptions*: [General Control Functions for Causal Estimation from IVs](https://papers.nips.cc/paper/2020/hash/604f2c31e67034642b288d76a8df11d5-Abstract.html) 
       - *Fundamental nonparametric assumptions for causal estimation using functional confounders which violate positivity*:  [Causal Estimation with Functional Confounders
 ](https://papers.nips.cc/paper/2020/hash/36dcd524971019336af02550264b8a08-Abstract.html) 
