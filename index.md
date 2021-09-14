@@ -5,7 +5,7 @@ layout: default
 ### About Me
 * * *
 
-I am a third year PhD candidate at NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
+I am a fourth year PhD candidate at NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
 At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
 Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
 My primary applied interest is ML for healthcare in particular and science in general. 
