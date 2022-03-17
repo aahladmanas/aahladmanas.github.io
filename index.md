@@ -16,17 +16,17 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
 ### News 
 * * * 
-  1. **March 2022, Very happy to be named an Apple Scholar in AI/ML!** [(announcement)](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)
-
-  3. **January 2022, NuRD published at ICLR 2022!**
-
-  5. **January 2022, Link to work at CLeaR 2022; Led by Mark Goldstein**: [link](https://arxiv.org/abs/2112.00881).
- 
+  1. **March 2022, Very happy to be named an Apple Scholar in AI/ML!** [(announcement)](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)  
+  
+  3. **January 2022, NuRD published at ICLR 2022!**   
+  
+  4. **January 2022, Link to work at CLeaR 2022; Led by Mark Goldstein**: [link](https://arxiv.org/abs/2112.00881).    
+  
   7. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates? [Predictive Modeling in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
 
-  2. **Apr' 21, Link to work at AISTATS, 2021; Led by Mukund Sudarshan**: A new contrarian test statistic to use in CRTs to improve robustness to mis-specified covariate distributions. [CONTRA:Contrarian statistics for controlled variable selection](http://proceedings.mlr.press/v130/sudarshan21a.html)
+  8. **Apr' 21, Link to work at AISTATS, 2021; Led by Mukund Sudarshan**: A new contrarian test statistic to use in CRTs to improve robustness to mis-specified covariate distributions. [CONTRA:Contrarian statistics for controlled variable selection](http://proceedings.mlr.press/v130/sudarshan21a.html)
 
-  3. **Nov' 20. Links to my work at NeurIPS 2020 along with punchlines (shoot me an email if these interest you!)**:  
+  9. **Nov' 20. Links to my work at NeurIPS 2020 along with punchlines (shoot me an email if these interest you!)**:  
       - *General method for causal estimation from instrumental variables using only treatment process assumptions*: [General Control Functions for Causal Estimation from IVs](https://papers.nips.cc/paper/2020/hash/604f2c31e67034642b288d76a8df11d5-Abstract.html) 
       - *Fundamental nonparametric assumptions for causal estimation using functional confounders which violate positivity*:  [Causal Estimation with Functional Confounders
 ](https://papers.nips.cc/paper/2020/hash/36dcd524971019336af02550264b8a08-Abstract.html) 
