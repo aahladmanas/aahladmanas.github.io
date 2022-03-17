@@ -16,6 +16,7 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
 ### News 
 * * * 
+  1. **March 22, recipient of the Apple Scholars in AI/ML Fellowship.**
   1. **January 22, NuRD published at ICLR 2022.**
   2. **January 22, Link to work at CLeaR 2022, work led by Mark Goldstein**: [link](https://arxiv.org/abs/2112.00881)
   3. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates?
