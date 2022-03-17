@@ -8,7 +8,8 @@ layout: default
 I am a fourth year PhD candidate in Computer Science at the Courant Institute, NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
 At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
 Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
-My primary applied interest is ML for healthcare in particular and science in general. 
+My primary applied interest is ML for healthcare in particular and science in general.
+From 2022 onward, I will be supported by the Apple Scholars in AI/ML fellowship.
 
 
 I'm eternally excited about new ideas and finding good applications for my work! Shoot me an email if you want to chat!
