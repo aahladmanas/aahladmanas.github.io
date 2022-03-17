@@ -18,7 +18,7 @@ I'm eternally excited about new ideas and finding good applications for my work!
 * * * 
   1. **March 2022, Very happy to be named an Apple Scholar in AI/ML!** [(announcement)](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)
 
-  3. **January 2022, NuRD published at ICLR 2022.**
+  3. **January 2022, NuRD published at ICLR 2022!**
 
   5. **January 2022, Link to work at CLeaR 2022; Led by Mark Goldstein**: [link](https://arxiv.org/abs/2112.00881).
  
