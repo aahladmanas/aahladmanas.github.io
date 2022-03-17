@@ -15,8 +15,10 @@ From 2022 onward, I will be supported by the Apple Scholars in AI/ML fellowship.
 I'm eternally excited about new ideas and finding good applications for my work! Shoot me an email if you want to chat!
 
 ### News 
-* * *
-  1. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates?
+* * * 
+  1. **January 22, NuRD publihsed at ICLR 2022.**
+  2. **January 22, Link to work at CLeaR, work led by Mark Godlstein**: [link](https://arxiv.org/abs/2112.00881)
+  3. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates?
   [Predictive Modeling in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
 
   2. **Apr' 21, Link to work at AISTATS, 2021; Led by Mukund Sudarshan**: A new contrarian test statistic to use in CRTs to improve robustness to mis-specified covariate distributions. [CONTRA:Contrarian statistics for controlled variable selection](http://proceedings.mlr.press/v130/sudarshan21a.html)
