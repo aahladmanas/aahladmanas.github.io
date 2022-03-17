@@ -20,7 +20,7 @@ I'm eternally excited about new ideas and finding good applications for my work!
   
   3. **January 2022, NuRD published at ICLR 2022!**   
   
-  4. **January 2022, Link to work at CLeaR 2022; Led by Mark Goldstein**: [link](https://arxiv.org/abs/2112.00881).    
+  4. **January 2022, Link to work at CLeaR 2022; Led by Mark Goldstein**: [link](https://arxiv.org/abs/2112.00881).   
   
   7. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates? [Predictive Modeling in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
 
