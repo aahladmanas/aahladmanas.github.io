@@ -6,7 +6,7 @@ layout: default
 * * *
 
 I am a fourth year PhD candidate in Computer Science at the Courant Institute, NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
-I am supported by the [Apple Scholars in AI/ML fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
+I am supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
 At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
 Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
@@ -17,7 +17,7 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
 ### News 
 * * * 
-  1. **March 2022, Very happy to be named an Apple Scholar in AI/ML!** [announcement](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)  
+  1. **March 2022, Very happy to be a part of the Apple Scholars in AI/ML PhD Fellowship program!** [announcement](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)  
   
   2. **March 2022, Updated version of NuRD on arxiv with improved results!** [link](https://arxiv.org/abs/2107.00520) 
   
