@@ -6,7 +6,7 @@ layout: default
 * * *
 
 I am a fourth year PhD candidate in Computer Science at the Courant Institute, NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
-I am supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
+I will be supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
 At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
 Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
