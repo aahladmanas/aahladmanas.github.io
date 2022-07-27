@@ -17,6 +17,9 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
 ### News 
 * * * 
+
+  1. **July 2022**: Organized the SCIS workshop at ICML 2022; [website](https://sites.google.com/view/scis-workshop/home).
+
   1. **March 2022, Very happy to be a recipient of the Apple Scholars in AI/ML PhD Fellowship!** [announcement](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)  
   
   2. **March 2022, Updated version of NuRD on arxiv with improved results!** [link](https://arxiv.org/abs/2107.00520) 
