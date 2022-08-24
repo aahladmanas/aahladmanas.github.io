@@ -22,11 +22,11 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
   1. **March 2022, Very happy to be a recipient of the Apple Scholars in AI/ML PhD Fellowship!** [announcement](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022)  
   
-  2. **March 2022, Updated version of NuRD on arxiv with improved results!** [link](https://arxiv.org/abs/2107.00520) 
+  2. **March 2022, Updated version of NuRD on arxiv with code and improved results!** [link](https://arxiv.org/abs/2107.00520) 
   
   4. **January 2022, NuRD published at ICLR 2022 and work led by Mark Goldstein published at CLeaR 2022;** [link](https://arxiv.org/abs/2112.00881).   
   
-  7. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates? [Predictive Modeling in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
+  7. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates? [Out-of-distribution Generalization in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
 
   8. **Apr' 21, Link to work at AISTATS, 2021; Led by Mukund Sudarshan**: A new contrarian test statistic to use in CRTs to improve robustness to mis-specified covariate distributions. [CONTRA:Contrarian statistics for controlled variable selection](http://proceedings.mlr.press/v130/sudarshan21a.html)
 
