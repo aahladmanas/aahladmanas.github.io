@@ -5,8 +5,9 @@ layout: default
 ### About Me
 * * *
 
-I am a fourth year PhD candidate in Computer Science at the Courant Institute, NYU. I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
-I will be supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
+I am a PhD candidate in Computer Science at the Courant Institute, NYU.
+I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
+I am [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
 At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
 Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
@@ -25,6 +26,8 @@ I'm eternally excited about new ideas and finding good applications for my work!
   2. **March 2022, Updated version of NuRD on arxiv with code and improved results!** [link](https://arxiv.org/abs/2107.00520) 
   
   4. **January 2022, NuRD published at ICLR 2022 and work led by Mark Goldstein published at CLeaR 2022;** [link](https://arxiv.org/abs/2112.00881).   
+
+  6. **Oct' 21, Named Rising Star by the Trustworthy ML initiative**
   
   7. **June' 21, New work on arxiv:** What sort of predictive models come with performance guarantees under spurious correlations induced by a relationship between the label and some nuisance variables that are correlated on the covariates? [Out-of-distribution Generalization in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)   
 
