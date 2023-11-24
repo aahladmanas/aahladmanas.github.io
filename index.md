@@ -5,12 +5,15 @@ layout: default
 ### About Me
 * * *
 
+**I am on the job market for academic positions this year. Please reach out to talk about my future research plans.** 
+
+
 I am a PhD candidate in Computer Science at the Courant Institute, NYU.
 I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
 I am supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
-At present, I'm working on building models that are robust across populations using insights and techniques from causal inference.
-Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
+
+I work on building models that are robust across populations using insights and techniques from causal inference. Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
 My primary applied interest is ML for healthcare in particular and science in general.
 
 
@@ -18,6 +21,14 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
 ### News 
 * * * 
+
+  1. **Oct 2023**: Gave a talk about OOD generalization in health at INFORMS.
+
+  2. **Sept 2023**: New paper accepted at NeurIPS 2023; \href{https://arxiv.org/abs/2308.12553}{link}.
+ 
+  1. **July 2023**: The second SCIS workshop happened at ICML 2022; [website](https://sites.google.com/view/scis-workshop/home).
+
+  2. **April 2023**: DIET was published at AISTATS; \href{https://arxiv.org/abs/2208.08579}{link}
 
   1. **July 2022**: Organized the SCIS workshop at ICML 2022; [website](https://sites.google.com/view/scis-workshop/home).
 
