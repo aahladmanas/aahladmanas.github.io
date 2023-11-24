@@ -24,11 +24,11 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
   1. **Oct 2023**: Gave a talk about OOD generalization in health at INFORMS.
 
-  2. **Sept 2023**: New paper accepted at NeurIPS 2023; \href{https://arxiv.org/abs/2308.12553}{link}.
+  2. **Sept 2023**: New paper accepted at NeurIPS 2023; [link](https://arxiv.org/abs/2308.12553).
  
-  1. **July 2023**: The second SCIS workshop happened at ICML 2022; [website](https://sites.google.com/view/scis-workshop/home).
+  1. **July 2023**: The second SCIS workshop was a success at ICML 2023; [link](https://sites.google.com/view/scis-workshop-23)
 
-  2. **April 2023**: DIET was published at AISTATS; \href{https://arxiv.org/abs/2208.08579}{link}
+  2. **April 2023**: DIET was published at AISTATS; [link](https://arxiv.org/abs/2208.08579).
 
   1. **July 2022**: Organized the SCIS workshop at ICML 2022; [website](https://sites.google.com/view/scis-workshop/home).
 
