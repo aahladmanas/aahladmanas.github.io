@@ -5,8 +5,6 @@ layout: default
 ### About Me
 * * *
 
-**I am on the job market for research positions this year.** 
-
 
 I am a PhD candidate in Computer Science at the Courant Institute, NYU.
 I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
