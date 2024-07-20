@@ -19,7 +19,8 @@ I'm eternally excited about new ideas and finding good applications for my work!
 
 ### News 
 * * * 
-
+  1. **June 2024**: Nuisances via Negativa accepted by TMLR; [link](https://arxiv.org/abs/2210.01302).
+     
   1. **Oct 2023**: Gave a talk about OOD generalization in health at INFORMS.
 
   2. **Sept 2023**: New paper accepted at NeurIPS 2023; [link](https://arxiv.org/abs/2308.12553).
