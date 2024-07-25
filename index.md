@@ -6,7 +6,7 @@ layout: default
 * * *
 
 
-I am a PhD candidate in Computer Science at the Courant Institute, NYU.
+I am a final-year PhD candidate in Computer Science at the Courant Institute, NYU.
 I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
 I am supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
