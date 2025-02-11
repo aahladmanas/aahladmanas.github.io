@@ -6,20 +6,26 @@ layout: default
 * * *
 
 
-I am a final-year PhD candidate in Computer Science at the Courant Institute, NYU.
-I am fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
-I am supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
+I am a Faculty Fellow at the Center for Data Science at NYU.
+I obtained my PhD in Computer Science from the Courant Institute, NYU, where I was fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
+During my PhD, I was partially supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
 
-I work on building models that are robust across populations using insights and techniques from causal inference. Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
-My primary applied interest is ML for healthcare in particular and science in general.
+My research closes the gap between how models are built and how they will be used: out-of-distribution generalization, causality, interpretability, and more generally feature learning.
+
+jjbuilding models that are robust across populations using insights and techniques from causal inference. Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
+My primary application of interest is AI for healthcare (e.g. [classifying medical images](https://arxiv.org/abs/2107.00520) and [survival analysis](https://arxiv.org/abs/2101.05346)), but I also work on ML for science in general ([ML for particle discovery](https://iopscience.iop.org/article/10.1088/2632-2153/ad780c/meta)) .
 
 
 I'm eternally excited about new ideas and finding good applications for my work! Shoot me an email if you want to chat!
 
 ### News 
 * * * 
-  1. **June 2024**: Nuisances via Negativa accepted by TMLR; [link](https://arxiv.org/abs/2210.01302).
+  1. **Oct 2024**: Two papers at NeurIPS 2024,  [Explanations that reveal all through the definition of Encoding](https://arxiv.org/abs/2411.02664) lead by Nhi and I, [Multi-modal contrastive learning with SYMILE](https://arxiv.org/abs/2411.01053) led by Adrial Saporta.
+
+  2. **August  2024**: Defened my PhD! Dissertation link coming soon.
+     
+  4. **June 2024**: Nuisances via Negativa accepted by TMLR; [link](https://arxiv.org/abs/2210.01302).
      
   1. **Oct 2023**: Gave a talk about OOD generalization in health at INFORMS.
 
