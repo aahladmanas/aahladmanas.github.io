@@ -13,8 +13,7 @@ During my PhD, I was partially supported by the [Apple Scholars in AI/ML PhD fel
 
 My research closes the gap between how models are built and how they will be used: out-of-distribution generalization, causality, interpretability, and more generally feature learning.
 
-jjbuilding models that are robust across populations using insights and techniques from causal inference. Earlier, I worked on causal effect estimation when standard assumptions like ignorability and positivity/overlap do not hold and improving calibration in survival models.
-My primary application of interest is AI for healthcare (e.g. [classifying medical images](https://arxiv.org/abs/2107.00520) and [survival analysis](https://arxiv.org/abs/2101.05346)), but I also work on ML for science in general ([ML for particle discovery](https://iopscience.iop.org/article/10.1088/2632-2153/ad780c/meta)) .
+I work on improving generalization of ML models, such as feature learning to improve robustness across populations. This work is informed by insights and techniques from my earlier work in causal inference in settings standard assumptions like ignorability and positivity/overlap do not hold. My primary application of interest is AI for healthcare (e.g. [classifying medical images](https://arxiv.org/abs/2107.00520) and [survival analysis](https://arxiv.org/abs/2101.05346)), but I also hold an interest in ML for science in general ([ML for particle discovery](https://iopscience.iop.org/article/10.1088/2632-2153/ad780c/meta)) .
 
 
 I'm eternally excited about new ideas and finding good applications for my work! Shoot me an email if you want to chat!
