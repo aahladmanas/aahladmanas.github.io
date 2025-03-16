@@ -11,7 +11,9 @@ I obtained my PhD in Computer Science from the Courant Institute, NYU, where I w
 During my PhD, I was partially supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
 
-My research closes the gap between how models are built and how they will be used: out-of-distribution generalization, causality, interpretability, and more generally feature learning. I currently work on improving generalization in ML models where key techniques rely on understanding the role of gradients on feature learning. 
+My research closes the gap between how models are built and how they will be used: out-of-distribution generalization, causality, interpretability, and more generally feature learning.
+
+My current work aims to improve feature learning in ML models by studying and mitigating the role of gradients on overfitting. 
 
 My earlier work focused on making models generalize across different populations ([Better representations for OOD](https://arxiv.org/abs/2107.00520), [Shortcut learning due to gradients](https://arxiv.org/abs/2308.12553)). The was informed by insights and techniques from work in causal inference in settings standard assumptions like ignorability and positivity/overlap do not hold. My primary application of interest is AI for healthcare (e.g. [classifying medical images](https://arxiv.org/abs/2107.00520) and [survival analysis](https://arxiv.org/abs/2101.05346)), but I also hold an interest in ML for science in general ([ML for particle discovery](https://iopscience.iop.org/article/10.1088/2632-2153/ad780c/meta)) .
 
