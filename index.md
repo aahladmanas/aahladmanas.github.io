@@ -23,7 +23,7 @@ I'm eternally excited about new ideas and finding good applications for my work!
 * * * 
   1. **Oct 2024**: Two papers at NeurIPS 2024,  [Explanations that reveal all through the definition of Encoding](https://arxiv.org/abs/2411.02664) lead by Nhi and I, [Multi-modal contrastive learning with SYMILE](https://arxiv.org/abs/2411.01053) led by Adrial Saporta.
 
-  2. **August  2024**: Defened my PhD! Dissertation link coming soon.
+  2. **August  2024**: Defended my PhD! Dissertation link coming soon.
      
   4. **June 2024**: Nuisances via Negativa accepted by TMLR; [link](https://arxiv.org/abs/2210.01302).
      
