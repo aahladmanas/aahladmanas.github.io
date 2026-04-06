@@ -21,7 +21,13 @@ My earlier work focused on making models generalize across different populations
 I'm eternally excited about new ideas and finding good applications for my work! Shoot me an email if you want to chat!
 
 ### News 
-* * * 
+* * *
+  1. **Mar 2026**: [Extracting Representations in LLMs Robust to Distribution Shifts](https://openreview.net/forum?id=KzH1cLVU1R) at the UCRL workshop at ICLR, about improved probing for high-level concepts in LLM representations.
+  1. **Nov 2025**: New paper [Let the Experts Speak: Improving Survival Prediction & Calibration via Mixture-of-Experts Heads]() at ML4H, improves survival modeling.
+  1. **Nov 2025**: New paper [Attention and Compression is all you need for Controllably Efficient Language Models](https://arxiv.org/abs/2511.05313) on building controllably efficient sequence models with attention primitives.
+  1. **Nov 2025**: New paper [Learning Is Not A Race:
+Improving Retrieval in Language Models via Equal Learning]((https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1260.pdf)) at ACL, improves feature learning in Transformer via a simple class of losses called E-losses.
+  1. **Jan 2025**: [Black-box Causal Inference](https://arxiv.org/abs/2503.05985) shows how to learn entire estimation algorithms by framing causal estimation as a meta-learning dataset-level prediction problem.
   1. **Oct 2024**: Two papers at NeurIPS 2024,  [Explanations that reveal all through the definition of Encoding](https://arxiv.org/abs/2411.02664) lead by Nhi and I, [Multi-modal contrastive learning with SYMILE](https://arxiv.org/abs/2411.01053) led by Adrial Saporta.
 
   2. **August  2024**: Defended my PhD! Dissertation link coming soon.
