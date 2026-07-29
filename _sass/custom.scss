@@ -1,0 +1,390 @@
+// Overrides on top of jekyll-theme-minimal. Loaded after the theme so these
+// rules win. Everything colour-related goes through custom properties so the
+// dark scheme is a single block at the bottom.
+
+:root {
+  --bg: #ffffff;
+  --fg: #33383d;
+  --fg-strong: #14171a;
+  --fg-muted: #6b7280;
+  --link: #1f6feb;
+  --link-hover: #0a4bb8;
+  --rule: #e6e8eb;
+  --surface: #f6f7f9;
+  --accent: #1f6feb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171a;
+    --fg: #c9d1d9;
+    --fg-strong: #f0f3f6;
+    --fg-muted: #8b949e;
+    --link: #6ea8fe;
+    --link-hover: #a8c9ff;
+    --rule: #2a2f35;
+    --surface: #1c2126;
+    --accent: #6ea8fe;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-size: 16px;
+  line-height: 1.65;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// ---------------------------------------------------------------- layout
+
+.wrapper {
+  width: auto;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 56px 32px 72px;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  grid-template-areas: "sidebar content" "sidebar footer";
+  grid-template-rows: 1fr auto;
+  column-gap: 64px;
+  align-items: start;
+}
+
+header {
+  grid-area: sidebar;
+  width: auto;
+  float: none;
+  position: sticky;
+  top: 56px;
+}
+
+section {
+  grid-area: content;
+  width: auto;
+  float: none;
+  padding-bottom: 0;
+  min-width: 0;
+}
+
+footer {
+  grid-area: footer;
+  width: auto;
+  float: none;
+  position: static;
+  bottom: auto;
+  padding-top: 32px;
+  color: var(--fg-muted);
+  font-size: 13px;
+}
+
+// ---------------------------------------------------------------- sidebar
+
+header h1 {
+  font-size: 26px;
+  letter-spacing: -0.02em;
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+header h1 a {
+  color: var(--fg-strong);
+}
+
+header h1 a:hover {
+  color: var(--link);
+}
+
+header img {
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 16px 0;
+  border: 1px solid var(--rule);
+}
+
+header p {
+  color: var(--fg-muted);
+  font-size: 14px;
+  margin: 0 0 12px;
+}
+
+// Nav links: the theme ships these as a stack of <p class="view">.
+header p.view {
+  margin: 0;
+  font-size: 15px;
+}
+
+header p.view a {
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid transparent;
+}
+
+header p.view a:hover {
+  border-bottom-color: var(--link-hover);
+}
+
+// ---------------------------------------------------------------- type
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--fg-strong);
+  letter-spacing: -0.01em;
+}
+
+section h2 {
+  font-size: 22px;
+  color: var(--fg-strong);
+}
+
+section h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg-muted);
+  font-weight: 700;
+  margin: 40px 0 4px;
+}
+
+section > h3:first-child {
+  margin-top: 0;
+}
+
+strong {
+  color: var(--fg-strong);
+}
+
+a {
+  color: var(--link);
+  // The theme bolds links on hover, which reflows the line. Underline instead.
+  text-decoration-color: transparent;
+  text-underline-offset: 2px;
+  transition: color 0.12s ease, text-decoration-color 0.12s ease;
+}
+
+a:hover, a:focus {
+  color: var(--link-hover);
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+hr {
+  background: var(--rule);
+  margin: 8px 0 24px;
+}
+
+blockquote {
+  border-left: 2px solid var(--rule);
+  color: var(--fg-muted);
+}
+
+code, pre {
+  color: var(--fg-strong);
+  font-size: 0.9em;
+}
+
+pre {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+}
+
+th, td {
+  border-bottom: 1px solid var(--rule);
+}
+
+th, dt {
+  color: var(--fg-strong);
+}
+
+// ---------------------------------------------------------------- news list
+
+section ol {
+  padding-left: 0;
+  list-style: none;
+  counter-reset: none;
+}
+
+section ol > li {
+  margin: 0 0 18px;
+  padding-left: 0;
+}
+
+// Lead the eye with the bolded date that starts each news item.
+section ol > li > strong:first-child {
+  color: var(--fg-strong);
+}
+
+section ol ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+section ol ul li {
+  margin-bottom: 6px;
+}
+
+// ------------------------------------------------------- publication entries
+
+// Each entry is one <p>: <strong>title</strong><br>authors<br><em>venue</em>.
+// The <br>s are explicit in the markdown, since Markdown folds single newlines.
+section p {
+  margin-bottom: 22px;
+}
+
+// Titles carry the entry; authors and venue sit back a step.
+section p > strong:first-child {
+  color: var(--fg-strong);
+  font-weight: 650;
+}
+
+section p em {
+  color: var(--fg-muted);
+  font-style: italic;
+}
+
+// ---------------------------------------------------------------- blog
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  padding: 0 0 20px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.post-list li:last-child {
+  border-bottom: 0;
+}
+
+.post-link {
+  display: block;
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.post-list time,
+.post-meta {
+  display: block;
+  color: var(--fg-muted);
+  font-size: 13px;
+}
+
+.post-excerpt {
+  margin: 8px 0 0;
+}
+
+.post-title {
+  margin-bottom: 4px;
+}
+
+.post-meta {
+  margin: 0 0 24px;
+}
+
+.post-byline::before {
+  content: " · ";
+}
+
+.post-tags {
+  color: var(--fg-muted);
+}
+
+.post-back {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+
+// ---------------------------------------------------------------- responsive
+
+@media screen and (max-width: 860px) {
+  .wrapper {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "sidebar" "content" "footer";
+    column-gap: 0;
+    row-gap: 32px;
+    padding: 36px 24px 56px;
+  }
+
+  header {
+    position: static;
+    padding-right: 0;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  header img {
+    width: 104px;
+    height: 104px;
+  }
+
+  // Undo the theme's absolutely-positioned nav on narrow screens.
+  header ul, header p.view {
+    position: static;
+    right: auto;
+    top: auto;
+  }
+
+  header p.view {
+    display: inline-block;
+    margin-right: 18px;
+  }
+
+  header p.view a {
+    display: inline;
+    padding: 0;
+  }
+
+  section {
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer {
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0;
+  }
+
+  .wrapper {
+    padding: 28px 18px 40px;
+  }
+}
+
+@media print {
+  body {
+    padding: 0.4in;
+    color: #000;
+    background: #fff;
+  }
+
+  header {
+    position: static;
+  }
+
+  .wrapper {
+    display: block;
+    max-width: none;
+    padding: 0;
+  }
+}
