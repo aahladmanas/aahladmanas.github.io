@@ -8,6 +8,7 @@ layout: default
 
 I am a Faculty Fellow / Assistant Professor at the Center for Data Science at NYU.
 I obtained my PhD in Computer Science from the Courant Institute, NYU, where I was fortunate to be advised by [Prof. Rajesh Ranganath](https://cims.nyu.edu/~rajeshr/).
+My dissertation received the Janet Fabri Prize for the most outstanding dissertation in NYU Computer Science, and my PhD was supported by an [Apple Scholars in AI/ML Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022).
 
 My research centers on **adaptation**: building AI systems that generalize beyond their training distribution, reason about the mechanisms that transfer across environments, and reveal what they rely on. I develop the representations and algorithms that make adaptation reliable, working toward the broader goal of reliable world models.
 
@@ -22,8 +23,26 @@ I'm eternally excited about new ideas and finding good applications for my work!
 ### Selected Work
 * * *
 
+**[Attention and Compression is all you need for Controllably Efficient Language Models](https://arxiv.org/abs/2511.05313)** — In submission, 2026.
+CAT establishes a new frontier on the performance–throughput curve, with an adjustable throughput knob in a single trained model.
+
+**[Flow Map Learning via Non-Gradient Vector Flow](https://openreview.net/forum?id=C1bkDPqvDW)** — ICLR 2026.
+Learns flow maps for few-step generative modeling, with a proven stationary-point guarantee.
+
+**[How I learned to stop worrying and love StopGrads: Stationarity, Convergence, and a case study on Flow Map Learning](https://arxiv.org/abs/2609.16222)** — arXiv, 2026.
+A stopgrad regression principle that characterizes stationary points and convergence, and unlocks new stopgrad objectives for efficient flow map training.
+
+**[Black Box Causal Inference: Effect Estimation via Meta Prediction](https://arxiv.org/abs/2503.05985)** — 2025.
+Learns whole estimation algorithms by framing causal estimation as dataset-level prediction.
+
+**[Learning Is Not A Race: Improving Retrieval in Language Models via Equal Learning](https://aclanthology.org/2025.findings-emnlp.1260/)** — EMNLP 2025.
+Equal learning improves retrieval by fixing how fast different features get learned.
+
 **[Explanations that Reveal All through the Definition of Encoding](https://arxiv.org/abs/2411.02664)** — NeurIPS 2024.
 Defines *encoding* in explanations and gives STRIPE-X, a scalable way to detect it.
+
+**[Contrasting with Symile: Simple Model-Agnostic Representation Learning for Unlimited Modalities](https://arxiv.org/abs/2411.01053)** — NeurIPS 2024.
+A multimodal alignment objective that captures higher-order interactions across any number of modalities, outperforming CLIP-based objectives by 12.5%.
 
 **[Don't Blame Dataset Shift! Shortcut Learning due to Gradients and Cross Entropy](https://arxiv.org/abs/2308.12553)** — NeurIPS 2023.
 Shortcut learning comes from the training objective, not just the data; margin control mitigates it.
@@ -31,16 +50,19 @@ Shortcut learning comes from the training objective, not just the data; margin c
 **[OOD Generalization in the Presence of Nuisance-Induced Spurious Correlations](https://arxiv.org/abs/2107.00520)** — ICLR 2022.
 NuRD, with optimality guarantees for generalizing across populations.
 
-**[Attention and Compression is all you need for Controllably Efficient Language Models](https://arxiv.org/abs/2511.05313)** — In submission, 2026.
-CAT matches ten efficient alternatives from a single trained model, at higher throughput than a dense transformer.
-
-**[Learning Is Not A Race: Improving Retrieval in Language Models via Equal Learning](https://aclanthology.org/2025.findings-emnlp.1260/)** — EMNLP 2025.
-Equal learning improves retrieval by fixing how fast different features get learned.
-
-**[Black Box Causal Inference: Effect Estimation via Meta Prediction](https://arxiv.org/abs/2503.05985)** — 2025.
-Learns whole estimation algorithms by framing causal estimation as dataset-level prediction.
+**[Causal Estimation with Functional Confounders](https://papers.nips.cc/paper/2020/hash/36dcd524971019336af02550264b8a08-Abstract.html)** — NeurIPS 2020.
+LODE estimates causal effects when confounders are functions of the treatments, with an application to genome-wide association studies.
 
 [Full publication list →](./publications.html)
+
+### Selected Honors
+* * *
+
+* Janet Fabri Prize, Outstanding PhD Dissertation, NYU Computer Science, 2025
+* [Apple Scholars in AI/ML PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2022), 2022
+* Top Reviewer, UAI 2022
+* Trustworthy ML Rising Star, 2021
+* MacCracken Doctoral Fellowship, NYU, 2018
 
 ### News
 * * *
